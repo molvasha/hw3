@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+a {
+  text-decoration: none; }
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif; }
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 18px;
+  padding-left: 18px; }
+
+.header {
+  margin-top: 32px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #ececec; }
+
+.container {
+  display: flex; }
+  .container .logo {
+    font-size: 27px;
+    font-weight: 300;
+    font-size: 27px;
+    color: #222222;
+    text-transform: uppercase;
+    line-height: 1.185;
+    display: flex; }
+    .container .logo img {
+      margin-right: 13px; }
+    .container .logo span {
+      color: #f16d7f;
+      font-weight: bold; }
+  .container .searchForm {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 30px;
+    width: 400px; }
+    .container .searchForm input {
+      height: inherit;
+      border: none;
+      margin: 0 20px;
+      padding-right: 75px; }
+    .container .searchForm button {
+      height: inherit;
+      padding: 0 8px;
+      border: 0;
+      background: none;
+      border-left: 1px solid #e6e6e6;
+      width: 40px; }
+      .container .searchForm button i {
+        margin-left: 6px; }
+    .container .searchForm .searchItem {
+      height: inherit;
+      padding: 12px;
+      font-size: 14px;
+      color: #222222;
+      background-color: #f9f9f9;
+      box-sizing: border-box;
+      border-right: 1px solid #e6e6e6;
+      display: flex;
+      align-items: center; }
+  .container .BuyIt {
+    height: 40px;
+    margin-left: auto; }
+    .container .BuyIt button {
+      height: inherit;
+      background-color: #f16d7f;
+      color: #fff;
+      border: none;
+      margin-left: 25px;
+      border-radius: 3px; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between; }
+  .navigation a {
+    color: #222222;
+    font-weight: bold; }
+
+.newArrivals {
+  height: 150px;
+  background-color: #d6d6d6;
+  margin-top: 22px; }
+  .newArrivals .newArrivalsBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit; }
+    .newArrivals .newArrivalsBanner h1 {
+      font-size: 24px;
+      color: #f16d7f;
+      text-transform: uppercase;
+      line-height: 0.833;
+      text-align: center; }
+    .newArrivals .newArrivalsBanner nav {
+      text-decoration: none;
+      font-size: 14px;
+      color: #636363;
+      text-transform: uppercase;
+      line-height: 1.429;
+      text-align: center; }
+      .newArrivals .newArrivalsBanner nav a:visited {
+        color: #636363; }
+      .newArrivals .newArrivalsBanner nav a:hover {
+        color: #f16d7f; }
+
+.menBanner {
+  height: 695px;
+  background: url(../img/newArrivals.png) no-repeat 585px 0;
+  background-size: auto 630px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #eaeaea;
+  border-bottom: 2px solid #eaeaea; }
+
+.womenCollection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -80px;
+  background-color: #fff;
+  border: 2px solid #eaeaea; }
+  .womenCollection button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f16d7f;
+    background-color: white;
+    width: 541px;
+    height: 59px;
+    font-size: 16px;
+    color: #ef5b70;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 120px; }
+  .womenCollection article {
+    display: block; }
+    .womenCollection article h1 {
+      font-size: 18px;
+      color: #4d4d4d;
+      text-transform: uppercase;
+      line-height: 1.333;
+      text-align: center; }
+    .womenCollection article p {
+      font-size: 14px;
+      color: #5e5e5e;
+      line-height: 1.714;
+      text-align: center;
+      margin: 63px 265px 0px; }
+
+.womenCollectionTop {
+  font-size: 14px;
+  color: #f16d7f;
+  font-weight: 900;
+  line-height: 1.714;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 72px; }
+
+.womenCollectionParameter {
+  display: flex;
+  margin: 30px 300px;
+  justify-content: space-between; }
+  .womenCollectionParameter .womenCollectionParameterSpec {
+    font-size: 14px;
+    color: #b9b9b9;
+    font-weight: bold;
+    line-height: 1.714;
+    text-align: center; }
+    .womenCollectionParameter .womenCollectionParameterSpec span {
+      color: #222222; }
+
+.womenCollectionCost {
+  font-size: 24px;
+  color: #f16d7f;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 45px; }
+
+.womenCollectionConfig {
+  width: 644px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #eaeaea;
+  padding-top: 62px;
+  margin-bottom: 30px; }
+  .womenCollectionConfig .womenCollectionConfigSelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .womenCollectionConfig .womenCollectionConfigSelect select {
+      width: 145px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #eaeaea;
+      background-color: white;
+      font-size: 13px;
+      color: #bcbcbc;
+      line-height: 1.846;
+      text-align: center;
+      padding-left: 15px; }
+    .womenCollectionConfig .womenCollectionConfigSelect input {
+      width: 145px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #eaeaea;
+      background-color: white;
+      font-size: 13px;
+      color: #bcbcbc;
+      line-height: 1.846;
+      text-align: left;
+      padding-left: 15px; }
+    .womenCollectionConfig .womenCollectionConfigSelect h2 {
+      font-size: 14px;
+      color: #2f2f2f;
+      font-weight: 900;
+      line-height: 1.714;
+      text-align: center; }
+
+.youLike {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between; }
+  .youLike .youLikeCard {
+    width: 260px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; }
+    .youLike .youLikeCard .cardBG {
+      width: inherit;
+      height: 280px;
+      background-color: #e9e9e9;
+      text-align: center; }
+      .youLike .youLikeCard .cardBG img {
+        max-height: 270px; }
+    .youLike .youLikeCard .youLikeCardProd {
+      font-size: 14px;
+      color: #6f6e6e;
+      text-transform: uppercase;
+      line-height: 1.2;
+      margin-left: 15px;
+      margin-top: 20px; }
+    .youLike .youLikeCard .youLikeCardCost {
+      font-size: 16px;
+      color: #f16d7f;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 1.2;
+      margin-top: 20px;
+      margin-left: 15px; }
+
+/*# sourceMappingURL=new-arrivals.css.map */

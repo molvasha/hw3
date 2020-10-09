@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900')
+$main-color:rgb(34, 34, 34)
+$accent-color:#f16d7f
+$form-color: rgb(164, 164, 164)
+$description-color:rgb(111, 110, 110)
+
+a
+  text-decoration: none
+
+body
+  margin: 0
+  font-family: 'Lato', sans-serif
+
+.container
+  width: 1170px
+  margin-left: auto
+  margin-right: auto
+  padding-right: 18px
+  padding-left: 18px
+
+.header
+  margin-top: 32px
+  margin-bottom: 20px
+  padding-bottom: 20px
+  border-style: solid
+  border-width: 0 0 1px 0
+  border-color: rgb(236, 236, 236)
+
+.container
+  display: flex
+
+  .logo
+    font-size: 27px
+    font-weight: 300
+    font-size: 27px
+    color: $main-color
+    text-transform: uppercase
+    line-height: 1.185
+    display: flex
+
+    img
+      margin-right: 13px
+
+    span
+      color: $accent-color
+      font-weight: bold
+
+  .searchForm
+    display: flex
+    align-items: center
+    height: 40px
+    border: 1px solid #e6e6e6
+    border-radius: 3px
+    overflow: hidden
+    margin-left: 30px
+    width: 400px
+
+    input
+      height: inherit
+      border: none
+      margin: 0 20px
+      padding-right: 75px
+
+    button
+      height: inherit
+      padding: 0 8px
+      border: 0
+      background: none
+      border-left: 1px solid #e6e6e6
+      width: 40px
+
+      i
+        margin-left: 6px
+
+    .searchItem
+      height: inherit
+      padding: 12px
+      font-size: 14px
+      color: $main-color
+      background-color: #f9f9f9
+      box-sizing: border-box
+      border-right: 1px solid #e6e6e6
+      display: flex
+      align-items: center
+
+  .BuyIt
+    height: 40px
+    margin-left: auto
+
+    button
+      height: inherit
+      background-color: $accent-color
+      color: #fff
+      border: none
+      margin-left: 25px
+      border-radius: 3px
+
+.navigation
+  display: flex
+  justify-content: space-between
+
+  a
+    color: $main-color
+    font-weight: bold
+
+.newArrivals
+  height: 150px
+  background-color: #d6d6d6
+  margin-top: 22px
+
+  .newArrivalsBanner
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: inherit
+
+    h1
+      font-size: 24px
+      color: $accent-color
+      text-transform: uppercase
+      line-height: 0.833
+      text-align: center
+
+    nav
+      text-decoration: none
+      font-size: 14px
+      color: rgb(99, 99, 99)
+      text-transform: uppercase
+      line-height: 1.429
+      text-align: center
+
+      a:visited
+        color: rgb(99, 99, 99)
+
+      a:hover
+        color: $accent-color
+
+.menBanner
+  height: 695px
+  background: url(../img/newArrivals.png) no-repeat 585px 0
+  background-size: auto 630px
+  background-color: #f7f7f7
+  display: flex
+  justify-content: space-between
+  align-items: center
+  border-top: 2px solid #eaeaea
+  border-bottom: 2px solid #eaeaea
+
+.womenCollection
+  display: flex
+  flex-direction: column
+  align-items: center
+  position: relative
+  top: -80px
+  background-color: #fff
+  border: 2px solid #eaeaea
+
+  button
+    border-style: solid
+    border-width: 1px
+    border-color: $accent-color
+    background-color: rgb(255, 255, 255)
+    width: 541px
+    height: 59px
+    font-size: 16px
+    color: rgb(239, 91, 112)
+    font-weight: bold
+    line-height: 1.2
+    margin-bottom: 120px
+
+  article
+    display: block
+
+    h1
+      font-size: 18px
+      color: rgb(77, 77, 77)
+      text-transform: uppercase
+      line-height: 1.333
+      text-align: center
+
+    p
+      font-size: 14px
+      color: rgb(94, 94, 94)
+      line-height: 1.714
+      text-align: center
+      margin: 63px 265px 0px
+
+
+.womenCollectionTop
+  font-size: 14px
+  color: $accent-color
+  font-weight: 900
+  line-height: 1.714
+  text-align: center
+  text-transform: uppercase
+  margin-top: 72px
+
+.womenCollectionParameter
+  display: flex
+  margin: 30px 300px
+  justify-content: space-between
+
+  .womenCollectionParameterSpec
+    font-size: 14px
+    color: rgb(185, 185, 185)
+    font-weight: bold
+    line-height: 1.714
+    text-align: center
+
+    span
+      color: $main-color
+
+.womenCollectionCost
+  font-size: 24px
+  color: $accent-color
+  font-weight: 900
+  line-height: 1
+  text-align: center
+  margin-bottom: 45px
+
+.womenCollectionConfig
+  width: 644px
+  display: flex
+  justify-content: space-between
+  border-top: 2px solid #eaeaea
+  padding-top: 62px
+  margin-bottom: 30px
+
+  .womenCollectionConfigSelect
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+
+    select
+      width: 145px
+      height: 40px
+      border-style: solid
+      border-width: 1px
+      border-color: rgb(234, 234, 234)
+      background-color: rgb(255, 255, 255)
+      font-size: 13px
+      color: rgb(188, 188, 188)
+      line-height: 1.846
+      text-align: center
+      padding-left: 15px
+
+    input
+      width: 145px
+      height: 40px
+      border-style: solid
+      border-width: 1px
+      border-color: rgb(234, 234, 234)
+      background-color: rgb(255, 255, 255)
+      font-size: 13px
+      color: rgb(188, 188, 188)
+      line-height: 1.846
+      text-align: left
+      padding-left: 15px
+
+    h2
+      font-size: 14px
+      color: rgb(47, 47, 47)
+      font-weight: 900
+      line-height: 1.714
+      text-align: center
+
+.youLike
+  margin-top: 120px
+  display: flex
+  justify-content: space-between
+
+  .youLikeCard
+    width: 260px
+    height: 360px
+    align-items: center
+    justify-content: center
+    flex-shrink: 0
+
+    .cardBG
+      width: inherit
+      height: 280px
+      background-color: #e9e9e9
+      text-align: center
+
+      img
+        max-height: 270px
+
+    .youLikeCardProd
+      font-size: 14px
+      color: rgb(111, 110, 110)
+      text-transform: uppercase
+      line-height: 1.2
+      margin-left: 15px
+      margin-top: 20px
+
+    .youLikeCardCost
+      font-size: 16px
+      color: rgb(241, 109, 127)
+      font-weight: 900
+      text-transform: uppercase
+      line-height: 1.2
+      margin-top: 20px
+      margin-left: 15px
+
