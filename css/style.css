@@ -1024,6 +1024,7 @@ footer .container {
 }
 
 .prodMainTop h2 {
+    width: inherit;
     font-size: 14px;
     color: rgb(111, 110, 110);
     font-weight: 900;
@@ -1072,6 +1073,16 @@ footer .container {
 
 .prodMainTopPrice {
     margin-left: 55px;
+    font-size: 14px;
+    color: rgb(111, 110, 110);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.429;
+    text-align: left;
+}
+
+.prodMainTopPrice input{
+    margin-top: 15px;
 }
 
 .prodSort {
@@ -1192,6 +1203,10 @@ footer .container {
     justify-items: center;
 }
 
+.FeaturePoster{
+    text-align: center;
+}
+
 .FeaturePoster h2 {
     font-size: 20px;
     color: rgb(251, 251, 251);
@@ -1207,4 +1222,29 @@ footer .container {
     line-height: 1.714;
     text-align: center;
     margin-top: 15px;
+}
+
+.ui-slider-horizontal {
+    height: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ui-widget.ui-widget-content {
+    background-color: #f0f0f0;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    background-color: #f16d7f;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    height: 14px;
+    width: 14px;
+    background-color: #f16d7f;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: none;
 }
