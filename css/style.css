@@ -1024,6 +1024,7 @@ footer .container {
 }
 
 .prodMainTop h2 {
+    width: inherit;
     font-size: 14px;
     color: rgb(111, 110, 110);
     font-weight: 900;
@@ -1072,6 +1073,16 @@ footer .container {
 
 .prodMainTopPrice {
     margin-left: 55px;
+    font-size: 14px;
+    color: rgb(111, 110, 110);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.429;
+    text-align: left;
+}
+
+.prodMainTopPrice input {
+    margin-top: 15px;
 }
 
 .prodSort {
@@ -1097,6 +1108,7 @@ footer .container {
     background-color: rgb(255, 255, 255);
     width: 157px;
     height: 34px;
+
 }
 
 .sorterUnit select {
@@ -1191,6 +1203,10 @@ footer .container {
     justify-items: center;
 }
 
+.FeaturePoster {
+    text-align: center;
+}
+
 .FeaturePoster h2 {
     font-size: 20px;
     color: rgb(251, 251, 251);
@@ -1206,4 +1222,164 @@ footer .container {
     line-height: 1.714;
     text-align: center;
     margin-top: 15px;
+}
+
+.ui-slider-horizontal {
+    height: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ui-widget.ui-widget-content {
+    background-color: #f0f0f0;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    background-color: #f16d7f;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    height: 14px;
+    width: 14px;
+    background-color: #f16d7f;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: none;
+}
+
+.checkOut {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.checkOut h2 {
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.checkOut h3 {
+    font-size: 13px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.checkOut p {
+    font-size: 13px;
+    color: rgb(179, 178, 178);
+    line-height: 1.538;
+    text-align: left;
+}
+
+.checkOut01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkOutShippingInf {
+    margin-left: 25px;
+}
+
+.checkOutReg {
+    padding-right: 165px;
+}
+
+.checkOutReg {
+    margin-top: 18px;
+}
+
+.form-check-label {
+    font-size: 12px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: right;
+    font-weight: 700;
+}
+
+.form-check-inf {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.checkContinue {
+    border: 1px solid rgb(234, 234, 234);
+    background-color: rgb(255, 255, 255);
+    width: 184px;
+    height: 54px;
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 40px;
+}
+
+.form-control {
+    border: 1px solid rgb(234, 234, 234);
+    background-color: rgb(255, 255, 255);
+    width: 394px;
+    height: 49px;
+}
+
+.form-group span {
+    color: rgb(255, 13, 13);
+}
+
+.important {
+    font-size: 13px;
+    color: rgb(255, 13, 13);
+    line-height: 1.538;
+}
+
+.submitButton {
+    display: flex;
+    margin-top: 30px;
+    align-items: flex-end;
+}
+
+.submitButton button {
+    border: 1px solid rgb(234, 234, 234);
+    background-color: rgb(255, 255, 255);
+    width: 184px;
+    height: 54px;
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.submitButton p {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    line-height: 1.429;
+    margin-left: 30px;
+}
+
+.checkOutNav{
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+
+.checkOutNav h2{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+}
+
+.checkOutNav span{
+    margin-left: 12px;
 }
